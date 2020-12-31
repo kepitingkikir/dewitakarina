@@ -1,3 +1,4 @@
+alert('Web ini bersifat interaktif, logo instagram mengarah langsung ke instagram pribadi saya. Paklaring guru pendamping akan keluar jika anda melakukan klik ke section guru pendamping.')
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
