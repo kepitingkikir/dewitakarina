@@ -1,4 +1,12 @@
-alert('Web ini bersifat interaktif, logo instagram mengarah langsung ke instagram pribadi saya. Paklaring guru pendamping akan keluar jika anda melakukan klik ke section guru pendamping.')
+window.onload=function(){
+    var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) {
+        alert("Gunakan komputer agar mendapatkan hasil maksimal");              
+        alert('Web ini bersifat interaktif, logo instagram mengarah langsung ke instagram pribadi saya. Paklaring guru pendamping akan keluar jika anda melakukan klik ke section guru pendamping.')
+    } else {
+        alert('Web ini bersifat interaktif, logo instagram mengarah langsung ke instagram pribadi saya. Paklaring guru pendamping akan keluar jika anda melakukan klik ke section guru pendamping.')
+    }
+}
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
